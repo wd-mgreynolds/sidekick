@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sidekick Configuration</title>
+</head>
+
+<body style="width: 200px; padding: 0px; margin: 0px; border: 1px solid darkblue; color: darkblue; font-family:Arial, Helvetica, sans-serif">
+    <div style="background-color: #005cb9; width: 100%; text-align: center">
+        <img src="img/sidekick-logo.png" style="width: 64px; padding: 3px" />
+        <div style="font-size: 2em; padding-bottom: 5px; color: white; letter-spacing: .3em;">Sidekick</div>
+    </div>
+    <div style="padding: 5px">
+        <div style="padding-bottom: 15px;">
+            Demo Mode: <input id="sidekick_mode" name="sidekick_mode" type="checkbox" value="demoMode"
+                checked="false">
+        </div>
+
+        <label>Workmate:</label>
+        <input style="width: 90%" id="sidekick_workmate" name="sidekick_workmate" type="text" placeholder="first.last" value="">
+
+        <label>Server:</label>
+        <input style="width: 90%" id="sidekick_server" name="sidekick_server" placeholder="wday server" type="text">
+
+        <div style="padding-top: 10px">
+            <div style="float: left">
+                <button id="sidekick_save" style="border-radius: 5px; border: 1px solid darkblue">Save</button>
+            </div>
+            <div style="float: right">
+                <button id="clear_cache" style="border-radius: 5px; border: 1px solid darkblue">Clear Cache</button>
+            </div>
+        </div>
+
+        <div style="clear: both; text-align: center;">
+            <p id="sidekick_status"></p>
+        </div>
+        <script src="js/sidekick-options.js"></script>
+</body>
+
+</html>

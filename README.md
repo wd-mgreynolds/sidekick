@@ -1,1 +1,1 @@
-# observer
+# sidekick
